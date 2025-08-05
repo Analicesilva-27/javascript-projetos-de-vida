@@ -59,33 +59,60 @@ body{
     display:block;
 }
 
-.ativo.ativo{
+.botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
 
-.aba-textos{
-    background-color:var(--texto-fundo);
-    padding:40px
-    border-radius:0 0 40px 40px;
+.abas-textos{
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
 }
 
-
 .aba-conteudo.ativo{
-    display:block
+    display: block;
 }
-.aba-conteudo.ativo{
-    display:nome
+
+.aba-conteudo{
+    display: none;
 }
 
 .aba-conteudo-titulo-principal{
-    fon-size: 28px;
-    text-align:center;
+    font-size: 28px;
+    text-align: center;
 }
+
 .aba-conteudo-titulo-secundario{
-    text-align:center;
-    color; var(--verde);
-    text-transform:uppercase
+    text-align: center;
+    color: var(--verde);
+    text-transform: uppercase;
+}
+
+.contador {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contador-digito{
+    padding: 0 16px;
+    text-align: center;
+    min-width: 100px;
+}
+
+.contador-digito-numero{
+    font-size: 80px;
+    margin: 0;
+}
+
+.contador-digito-texto{
+    color: var(--verde);
+    font-size: 20px;
+    margin: 0;
+}
+
 
 
 @media screen and (min-width: 768px){
